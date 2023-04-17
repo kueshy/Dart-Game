@@ -5,11 +5,11 @@ public class Main {
 
         Scanner keyboard=new Scanner(System.in);
 
-        System.out.println("Enter the first coordinate");
+        System.out.println("Enter the first(x) coordinate");
         int x=keyboard.nextInt();
 
 
-        System.out.println("Enter the second coordinate");
+        System.out.println("Enter the second(y) coordinate");
         int y=keyboard.nextInt();
 
         System.out.println(score(x,y));
